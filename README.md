@@ -41,7 +41,7 @@ In this project we are trying to scrape the website. Scraping happens here ***as
      >> npm install --save bootstrap ngx-bootstrap
      ```
    - jquery
-     ```
+     ```cmd
      >> npm install jquery
      ```
       
