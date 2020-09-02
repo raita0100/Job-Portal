@@ -53,4 +53,8 @@ In this project we are trying to scrape the website. Scraping happens here ***as
      ```link
      http://localhost:4200/
      ```
+     
+## Contributors
+* [vinod](https://github.com/raita0100)
+* [Koushik](https://github.com/koushikkolli)
  
