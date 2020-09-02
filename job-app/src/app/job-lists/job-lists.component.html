@@ -1,0 +1,79 @@
+<br />
+<div class="row">
+  <div class="col-md-4">
+    <div class="form-group">
+      <h5>What</h5>
+      <input
+        class="form-control"
+        type="text"
+        placeholder="Search"
+        aria-label="Search"
+        [(ngModel)]="keyWord"
+        placeholder="Job title, keywords, or company"
+        id="key"
+      />
+      <span id="errkey" style="color:red;">
+      </span>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="form-group">
+      <h5>Where</h5>
+      <input
+        class="form-control"
+        type="text"
+        placeholder="Search"
+        aria-label="Search"
+        [(ngModel)]="keyWhere"
+        placeholder="City or State"
+        id="loc"
+      />
+      <span id="errloc" style="color:red;">
+      </span>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="form-group">
+      <h5>&nbsp;</h5>
+      <button class="btn btn-primary" onclick="search_job()">Find Jobs</button>
+    </div>
+  </div>
+</div>
+
+<br>
+<!--
+<div class="row">
+  <div
+    class="col-sm-12 col-md-6 col-lg-4 col-xl-4 job-card"
+    *ngFor="let temp of listOfJobs; let i = index"
+  >
+    <app-job [job]="listOfJobs[i]" [index]="i"></app-job>
+  </div>
+</div>
+-->
+<div class="row">
+<div class="col-sm-6">
+<section class="container-fluid padding mt-1">
+  <span class="alert alert-secondary" style="color:royalblue;font-size:23px;display:none;" id="fetch_err">
+
+  </span>
+
+  <div class="text-center mt-4 mb-4" id="loader-block" style="display: none;">
+    <div class="spinner-grow" role="status">
+      <span class="sr-only">Loading....</span>
+    </div>
+  </div>
+  <span id="display_tab">
+
+  </span>
+  <span id="pager-tab">
+  </span>
+  
+</section>
+</div>
+<div class="col-sm-6">
+  <div class="card card-cascade wider" id="detail_tab">
+
+  </div> 
+</div>
+</div>
