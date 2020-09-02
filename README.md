@@ -19,19 +19,20 @@ In this project we are trying to scrape the website. Scraping happens here ***as
     Run flask server.
   
  - ## Front end  
- 1. Install node-js.  
+  1. Install node-js.  
  
- 2. Then using node-js _(npm)_ install angular.  
-    ```cmd
-    >> npm install -g @angular/cli@latest
-    ```
- 
- 3. Download the repository.  
-    ```cmd
-    >> cd \to\the\repo\job-app
-    ```
-  
-  4. Install dependencies.  
+  2. Then using node-js _(npm)_ install angular.  
+     ```cmd
+     >> npm install -g @angular/cli@latest
+     ```
+  3. create a angular app.  
+     ```cmd
+     >> npm new job-app
+     >> cd job-app
+     ```  
+  4. Download the repository and copy the ***src*** folder from repo to your angular app.   
+    
+  5. Install dependencies.  
    - Firebase
      ```cmd
      >> npm install --save firebase@latest
@@ -45,11 +46,15 @@ In this project we are trying to scrape the website. Scraping happens here ***as
      >> npm install jquery
      ```
       
-  5. Then run angular app
+  6. Then run angular app
      ```cmd
      >> ng serve
-     ```
-  6. Open browser type url:
+     ```  
+  7. Add dependencies and files to your project from the repo
+     * add scripts folder from ```repos/job-app/src/assets/scripts``` to your app.
+     * add dependencies in angular.json file according to the repos angular.json.
+     
+  8. Open browser type url:
      ```link
      http://localhost:4200/
      ```
