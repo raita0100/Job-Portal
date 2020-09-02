@@ -32,26 +32,24 @@ In this project we are trying to scrape the website. Scraping happens here ***as
   ```
   
   4. Install dependencies.  
-    
-    1. Firebase
+    - Firebase
       ```cmd
       >> npm install --save firebase@latest
-      ```  
-      
-    2. bootstrap
-      ```cmd
-      >> npm install --save bootstrap ngx-bootstrap
       ```
-    3. jquery
-      ```
-      >> npm install jquery
-      ```
+   - bootstrap
+     ```cmd
+     >> npm install --save bootstrap ngx-bootstrap
+     ```
+   - jquery
+     ```
+     >> npm install jquery
+     ```
       
   5. Then run angular app
      ```cmd
      >> ng serve
      ```
-  6. Open browser then run:
+  6. Open browser type url:
      ```link
      http://localhost:4200/
      ```
