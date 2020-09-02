@@ -15,7 +15,7 @@ In this project we are trying to scrape the website. Scraping happens here ***as
  
  ## usage 
  - ## Initialising the backend
-    [refer-here](https://github.com/raita0100/Job-Portal/tree/master/backend#running-in-flask-server-as-api-apppy)  
+    [refer-here](https://github.com/raita0100/Job-Portal/tree/master/backend#requirements)  
     Run flask server.
   
  - ## Front end  
