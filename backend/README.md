@@ -15,21 +15,21 @@ In this project we are trying to scrape the website. Scraping happens here ***as
 ```
 
 - activate the vertual environment.
-- then install libraries from [requirements.txt file](https://github.com/raita0100/JobScraper/blob/master/backend/requirements.txt).  
+- then install libraries from [requirements.txt file](https://github.com/raita0100/Job-Portal/blob/master/backend/requirements.txt).  
 ```cmd
 >> pip install -r requirements.txt
 ```  
 
 ## Usage  
 
-- For running file [_live_crawler.py](https://github.com/raita0100/JobScraper/blob/master/backend/_live_crawler.py).  
+- For running file [_live_crawler.py](https://github.com/raita0100/Job-Portal/blob/master/backend/_live_crawler.py).  
   ```python
   import _live_crawler as crawler
   
   crawler.main(key="key word", loc="location of work")
   
   ```
-- #### Running in flask server as api. [app.py](https://github.com/raita0100/JobScraper/blob/master/backend/app.py)
+- #### Running in flask server as api. [app.py](https://github.com/raita0100/Job-Portal/blob/master/backend/app.py)
   > For windows
   ```cmd
   >> cd to\the\repo\backend
