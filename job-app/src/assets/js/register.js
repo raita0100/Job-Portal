@@ -6,14 +6,14 @@ var cpass_val = false;
 
 
 var firebaseConfig = {
-    apiKey: "AIzaSyCn9jWEt920Rjnl03EvBDt35Li32RrfVvM",
-    authDomain: "portal-f4e46.firebaseapp.com",
-    databaseURL: "https://portal-f4e46.firebaseio.com",
-    projectId: "portal-f4e46",
-    storageBucket: "portal-f4e46.appspot.com",
-    messagingSenderId: "479478503614",
-    appId: "1:479478503614:web:2b1f774b29883bcdbfa6ef",
-    measurementId: "G-QSPXDJVTCM"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 // Initialize Firebase
